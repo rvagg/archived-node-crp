@@ -75,6 +75,10 @@ crp(
 )
 ```
 
+## Want more?
+
+**crp** currently only does a centred crop and if the image is smaller than the crop size then it'll likely fill black. I'm open to adding options to change behaviour to making it more useful, just file issues or send pull requests for what you need!
+
 ## Licence
 
 crp is Copyright (c) 2013 Rod Vagg [@rvagg](https://twitter.com/rvagg) and licensed under the MIT licence. All rights not explicitly granted in the MIT license are reserved. See the included LICENSE file for more details.
