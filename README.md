@@ -6,7 +6,7 @@ Depends on [node-canvas](https://github.com/LearnBoost/node-canvas) which has sp
 
 ## Related
 
-**crp** shares the same API as **[rsz](https://github.com/rvagg/node-rsz)**, except **rsz** is for *resizing* images rather than cropping. See also **[sz](https://github.com/rvagg/node-sz)** for simply obtaining the *size* of an image.
+**crp** shares the same API as **[rsz](https://github.com/rvagg/node-rsz)**, except **rsz** is for *resizing* images rather than cropping. See also **[sz](https://github.com/rvagg/node-sz)** for simply obtaining the *size* of an image, and **[thmb](https://github.com/rvagg/node-thmb)** for making thumbnails of images.
 
 ## API
 
