@@ -1,8 +1,8 @@
 {
     "name"             : "crp"
   , "description"      : "Crop images as files or Buffers"
-  , "version"          : "0.0.2"
   , "homepage"         : "https://github.com/rvagg/node-crp"
+  , "version"          : "0.0.2"
   , "authors"          : [
         "Rod Vagg <rod@vagg.org> (https://github.com/rvagg)"
     ]
@@ -13,14 +13,15 @@
       , "url"              : "https://github.com/rvagg/node-crp.git"
     }
   , "dependencies"     : {
-        "rsz"              : "~0.2.0"
-      , "sz"               : "~0.0.4"
+        "rsz"              : "~0.2.3"
+      , "sz"               : "~0.0.5"
     }
   , "peerDependencies" : {
         "canvas"           : "~1.1.2"
     }
   , "devDependencies"  : {
         "tap"              : "*"
+      , "canvas"           : "~1.1.2"
     }
   , "scripts"          : {
         "test"             : "node ./test.js"
