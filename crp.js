@@ -6,16 +6,16 @@ module.exports = function (src, width, height, dst, callback) {
   var options
     , originalSize
 
-    , drawImage = function (ctx, image, width, height) {
-        var x      = (width - originalSize.width) / 2
-          , y      = (height - originalSize.height) / 2
+  function drawImage (ctx, image, width, height) {
+    var x = (width - originalSize.width) / 2
+      , y = (height - originalSize.height) / 2
 
-        ctx.imageSmoothingEnabled = true
-        ctx.drawImage(image, x, y, originalSize.width, originalSize.height)
-      }
+    ctx.imageSmoothingEnabled = true
+    ctx.drawImage(image, x, y, originalSize.width, originalSize.height)
+  }
 
   if (typeof width == 'number') {
-    options  = {
+    options = {
         width  : width
       , height : height
     }
