@@ -1,5 +1,4 @@
-const fs     = require('fs')
-    , rsz    = require('rsz')
+const rsz    = require('rsz')
     , sz     = require('sz')
 
 module.exports = function (src, width, height, dst, callback) {
